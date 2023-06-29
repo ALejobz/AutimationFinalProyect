@@ -1,0 +1,15 @@
+{
+    "tc1_loginsuccessfull":{
+        "email": "ab@endava.com",
+        "password": "Hola123#",
+        "method": "GET",
+        "endpoint": "https://ecommerce-playground.lambdatest.io/index.php?route=account/account"
+    },
+    "tc2_purchase":{
+        "name": "alejo",
+        "lastname": "beltran",
+        "address": "Calle 12",
+        "city": "manchester",
+        "postal": "700990"
+    }
+}
