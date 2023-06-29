@@ -2,7 +2,7 @@ Feature: UI testing - LambdaTest web page
 
     Scenario: Verify that the image of a product displayed
 
-    Given I am on the Home page
+    Given I am on the Home page 
     When I click on a intem in the home page
     Then The product details view show
     And The product image is shown
