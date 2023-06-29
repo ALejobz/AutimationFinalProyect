@@ -11,7 +11,7 @@ class homePage{
         productImg: ()=> cy.get('#image-gallery-216811 > div.image-thumb.d-flex > a > img'),
         productButton2: ()=> cy.get('#mz-product-listing-image-37213259-0-0 > .carousel-inner > .active > .lazy-load'),
         addCartButton: ()=> cy.get("[title='Add to Cart']").eq(0),
-        addWishListButton: ()=> cy.get("[title='Add to Wish List']").eq(2),
+        addWishListButton: ()=> cy.get("[title='Add to Wish List']").eq(1),
         wishListButton: ()=> cy.get("[aria-label='Wishlist']").eq(0),
         prodInWishList: ()=> cy.get("#content > div.table-responsive > table > thead > tr > th:nth-child(2)"),
         cartButton: ()=> cy.get(".form-row > :nth-child(1) > .btn"),
